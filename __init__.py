@@ -10,6 +10,14 @@ import os
 import db
 import local
 
+backup_dia = False
+def backup():
+    now = datetime.now().isoformat()
+    os.system(r"cd /home/pi/Desktop/piProject/tempControl")
+    os.system("git add .")
+    os.system(f"git commit -m Backup_{now}")
+    os.system("git push")
+    
 # Define o tipo de sensor
 sensor = Adafruit_DHT.DHT11
 
@@ -53,4 +61,11 @@ while(True):
             local.save(now, temp, umid)
     except Exception as e:
         print(e)
+
+    if now.hour == 12 and not backup_dia:
+        backup()
+        backup_dia = True
+    if now.hour == 0:
+        backup_dia = False
+    
     time.sleep(sleep)

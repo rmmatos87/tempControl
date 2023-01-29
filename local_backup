@@ -4862,3 +4862,17 @@
 {'timestamp': '2023-01-28T21:56:37.160936', 'temperature': 28.0, 'umidity': 72.0}
 {'timestamp': '2023-01-28T21:57:59.355340', 'temperature': 28.0, 'umidity': 72.0}
 {'timestamp': '2023-01-28T21:59:21.550143', 'temperature': 28.0, 'umidity': 72.0}
+{'timestamp': '2023-01-28T22:00:43.713159', 'temperature': 28.0, 'umidity': 72.0}
+{'timestamp': '2023-01-28T22:02:08.441313', 'temperature': 28.0, 'umidity': 72.0}
+{'timestamp': '2023-01-28T22:03:33.164248', 'temperature': 28.0, 'umidity': 73.0}
+{'timestamp': '2023-01-28T22:04:55.356370', 'temperature': 28.0, 'umidity': 70.0}
+{'timestamp': '2023-01-28T22:06:17.550174', 'temperature': 14.0, 'umidity': 164.0}
+{'timestamp': '2023-01-28T22:07:39.687948', 'temperature': 28.0, 'umidity': 72.0}
+{'timestamp': '2023-01-28T22:09:01.882777', 'temperature': 28.0, 'umidity': 72.0}
+{'timestamp': '2023-01-28T22:10:24.020544', 'temperature': 14.0, 'umidity': 164.0}
+{'timestamp': '2023-01-28T22:11:48.688461', 'temperature': 28.0, 'umidity': 72.0}
+{'timestamp': '2023-01-28T22:13:19.858463', 'temperature': 28.0, 'umidity': 70.0}
+{'timestamp': '2023-01-28T22:14:55.645861', 'temperature': 28.0, 'umidity': 70.0}
+{'timestamp': '2023-01-28T22:16:28.895388', 'temperature': 28.0, 'umidity': 72.0}
+{'timestamp': '2023-01-28T22:17:59.651308', 'temperature': 28.0, 'umidity': 69.0}
+{'timestamp': '2023-01-28T22:19:30.376052', 'temperature': 28.0, 'umidity': 72.0}
